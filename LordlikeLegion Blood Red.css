@@ -1,12 +1,13 @@
-/**
- * @name LordlikeLegion Blood Red
- * @author Nick
- * @version 7.0.1
- * @description Highly customizable theme for Equicord, BetterDiscord, and Vencord.
- * @source https://drive.google.com/file/d/19VUG-0rl20J0mjLEaF4ypuRDoRLwHVqD/view?usp=sharing
- * @website https://drive.google.com/file/d/19VUG-0rl20J0mjLEaF4ypuRDoRLwHVqD/view?usp=sharing
- * @invite AhJTAVj5Dd
- */
+/** ==UserStyle==
+ *@name        LordlikeLegion Blood Red
+ *@version     7.0.1
+ *@description My clan's official wallpaper that is a blood red modification of the "ClearVision" theme.
+ *@author      taprr
+ *@source https://github.com/ClearVision/ClearVision-v7
+ *@website https://drive.google.com/file/d/19VUG-0rl20J0mjLEaF4ypuRDoRLwHVqD/view?usp=sharing
+ *@invite 3m79DzddaQ
+==/UserStyle== */
+
 /* IMPORT CSS */
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 @import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
