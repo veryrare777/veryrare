@@ -1,13 +1,12 @@
-/** ==UserStyle==
- *@name        LordlikeLegion Blood Red
- *@version     7.0.1
- *@description My clan's official wallpaper that is a blood red modification of the "ClearVision" theme.
- *@author      taprr
- *@source https://github.com/ClearVision/ClearVision-v7
- *@website https://drive.google.com/file/d/19VUG-0rl20J0mjLEaF4ypuRDoRLwHVqD/view?usp=sharing
- *@invite 3m79DzddaQ
-==/UserStyle== */
-
+/**
+ * @name LordlikeLegion Blood Red Theme
+ * @author taprr
+ * @version 7.0.1
+ * @description This is a blood red modification of the ClearVision theme, and I implemented my clan's wallpaper and logo.
+ * @source https://github.com/ClearVision/ClearVision-v7
+ * @website https://github.com/veryrare777/veryrare.git
+ * @invite 3m79DzddaQ
+ */
 /* IMPORT CSS */
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 @import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
@@ -45,19 +44,19 @@
   --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
   --user-modal-filter: var(--background-filter); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   /* HOME ICON */
-  --home-icon: url(https://imgur.com/a/0HUmjwk); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-icon: url(https://i.postimg.cc/yYkzSg8X/LLL-GOLD.png); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-size: cover; /* home button icon size (px) [default:cover] */
   /* FONTS */
-  --main-font: "gg sans", "gg sans", gg sans; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
   /* CHANNEL COLORS */
-  --channel-normal: var(--interactive-normal); /* channel text color [default: var(--interactive-normal)] */
-  --channel-muted: var(--interactive-muted); /* muted channel text color [default: var(--interactive-muted)] */
-  --channel-hover: var(--interactive-hover); /* hovered channel text color [default: var(--interactive-hover)] */
-  --channel-selected: var(--interactive-active); /* selected channel text color [default: var(--interactive-active)] */
-  --channel-selected-bg: var(--main-color); /* selected channel background [default: var(--main-color)] */
-  --channel-unread: var(--main-color); /* unread channel text color [default: var(--main-color)] */
-  --channel-unread-hover: var(--hover-color); /* unread channel hover color [default: var(--hover-color)] */
+  --channel-normal: #FFFFFF;
+  --channel-muted: #777777;
+  --channel-hover: #CCCCCC;
+  --channel-selected: #FFFFFF;
+  --channel-selected-bg: #750000; /* Your main red */
+  --channel-unread: #FF0000;
+  --channel-unread-hover: #990000;
   /* ACCESSIBILITY */
   --focus-color: var(--main-color); /* outline when pressing TAB key [default: var(--main-color)] */
 }
